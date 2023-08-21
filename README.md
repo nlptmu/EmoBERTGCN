@@ -13,6 +13,24 @@ Natural language processing (NLP) research for the Filipino language is relative
 | Model | Recall | F<sub>1</sub><sup>PN</sup> |
 | ----- | -------| -------- |
 | Support Vector Machine | 0.5355 | 0.6986 |
+| Naïve Bayes | 0.3453 | 0.4594 |
+| KNN | 0.5671 | 0.6747 |
+| Decision Tree | 0.5018 | 0.6267 |
+| Logistic Regression | 0.5555 | 0.7250 |
+| Passive Aggressive | 0.5788 | 0.7298 |
+| Ridge Classifier | 0.5740 | 0.7298 |
+| Light GBM | 0.5647 | 0.7178 |
+| Adaboost | 0.5140 | 0.6742 |
+| Random Forest | 0.4680 | 0.5829 |
+| Gradient Boosting | 0.5337 | 0.6568 |
+| XG Boost | 0.5415 | 0.6927 |
+| Catboost | 0.5437 | 0.7010 |
+| Feed-Forward Neural Network | 0.5079 | 0.6558 |
+| BiLSTM | 0.5636 | 0.6935 |
+| TextCNN | 0.5697 | 0.7008 |
+| TextGCN | 0.3333 | 0.4302 | 
+| BERTGCN | 0.6146 | 0.7624 |
+| EmoBERTGCN | **0.6787** | **0.7803** |
 
 ## Topic Modelling Process
 
