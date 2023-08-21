@@ -10,7 +10,7 @@ Natural language processing (NLP) research for the Filipino language is relative
 
 ## Model Evaluation Results
 
-| Model | Recall | F<sup>PN</sup><sub>1</sub> |
+| Model | Recall | F<sub>1</sub><sup>PN</sup> |
 | ----- | -------| -------- |
 | Support Vector Machine | 0.5355 | 0.6986 |
 
