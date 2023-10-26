@@ -1,4 +1,4 @@
-# EmoBERTGCN-sentiment-analysis
+# EmoBertGCN-sentiment-analysis
 
 ## Abstract
 
@@ -30,7 +30,7 @@ Natural language processing (NLP) research for the Filipino language is relative
 | TextCNN | 0.5697 | 0.7008 |
 | TextGCN | 0.3333 | 0.4302 | 
 | BERTGCN | 0.6146 | 0.7624 |
-| EmoBERTGCN | **0.6787** | **0.7803** |
+| EmoBertGCN | **0.6787** | **0.7803** |
 
 ## Topic Modelling Process
 
