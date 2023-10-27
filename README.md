@@ -1,4 +1,4 @@
-# EmoBertGCN-sentiment-analysis
+# EmoBertGCN
 
 ## Abstract
 
