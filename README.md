@@ -1,8 +1,10 @@
-# EmoBertGCN
+# Novel Fusion of Graph Convolution and Language Models for Sentiment and Topic Analysis in Low-Resource Languages
+
 
 ## Abstract
 
-Natural language processing (NLP) research for the Filipino language is relatively new and emerging, as compared to high resource languages like English. There are only a very limited amount of publicly available corpora and labelled datasets suitable for model training and evaluation. Meanwhile, there has been a surge of interest on investigating the effectiveness of graph-based NLP models, but their performances on highly variable social media texts is not sufficiently explored. Therefore, this work attempts to alleviate these issues by making the following contributions. First, we create a large-scale dataset with nine thousand manually annotated and 600 thousand weakly labelled Tweets in Filipino concerning the 2022 Philippine National Elections. Second, we propose a new model that integrates BERT and Graph Convolutional Network (GCN) modules, and incorporates emojis, hashtags and user mentions in the model training process with the manually annotated dataset. Besting the baseline models, it achieves 0.679 macro recall score and 0.78 macro F1 score for binary sentiment classification. This suggests that emotion-infused graph learning paired with BERT embeddings can provide robust predictions even in imbalanced datasets. The proposed model is further used to predict the labels of the weakly labelled dataset. Third, we present a topic modelling framework employing BERT-LDA technique and Log-likelihood Ratio keyword extraction to find crucial information contained within the Tweets. In particular, numerous events regarding the 2022 elections can be thoroughly explored within the five topic clusters produced by our framework. It is verified that they are aligned with the official reports of reputable news agencies. 
+In the nascent field of Natural Language Processing (NLP) for the Filipino language, the scarcity of publicly accessible corpora and labeled datasets presents significant challenges for model training and validation. Concurrently, the potential of graph-based NLP models for analyzing the variable nature of social media text remains underexplored. To address these gaps, our research makes several key contributions. First, we have constructed a substantial dataset, comprising 9,000 manually annotated and 600,000 weakly labeled Filipino tweets related to the 2022 Philippine National Elections, to enhance model training and evaluation. Second, we introduce an innovative model that synergistically combines the strengths of BERT with Graph Convolutional Network (GCN) and enriches training with the inclusion of emojis, hashtags, and user mentions. This model outperforms 16 compared models and achieves an overall F1-score of 0.78 in sentiment classification, indicating that emotional nuances embedded within graph learning coupled with BERT embeddings can yield robust predictions in imbalanced datasets. Finally, we offer a novel topic modeling framework that leverages Bert-LDA alongside the Log-likelihood Ratio to enable the extraction of pivotal information from tweets. This framework successfully discerns key narratives from the 2022 elections within five distinct topic clusters, providing comprehensive insights into the election discourse.
+
 
 ## Model Architecture
 
@@ -11,25 +13,23 @@ Natural language processing (NLP) research for the Filipino language is relative
 
 ## Model Evaluation Results
 
-| Model | Recall | F<sub>1</sub><sup>PN</sup> |
-| ----- | -------| -------- |
-| Support Vector Machine | 0.5355 | 0.6986 |
-| Naïve Bayes | 0.3453 | 0.4594 |
-| KNN | 0.5671 | 0.6747 |
-| Decision Tree | 0.5018 | 0.6267 |
-| Logistic Regression | 0.5555 | 0.7250 |
-| Passive Aggressive | 0.5788 | 0.7298 |
-| Ridge Classifier | 0.5740 | 0.7298 |
-| Light GBM | 0.5647 | 0.7178 |
-| Adaboost | 0.5140 | 0.6742 |
-| Random Forest | 0.4680 | 0.5829 |
-| Gradient Boosting | 0.5337 | 0.6568 |
-| XG Boost | 0.5415 | 0.6927 |
-| Catboost | 0.5437 | 0.7010 |
-| Feed-Forward Neural Network | 0.5079 | 0.6558 |
-| BiLSTM | 0.5636 | 0.6935 |
-| TextCNN | 0.5697 | 0.7008 |
-| TextGCN | 0.3333 | 0.4302 | 
-| BERTGCN | 0.6146 | 0.7624 |
-| EmoBertGCN | **0.6787** | **0.7803** |
+Model	Precision	Recall	F1-score
+Naïve Bayes	0.5866	0.3453	0.4594
+KNN	0.6752	0.5671	0.6747
+Decision Tree	0.5113	0.5018	0.6267
+Logistic Regression	0.8017	0.5555	0.7250
+Support Vector Machine	0.8587	0.5355	0.6986
+Passive Aggressive	0.6519	0.5788	0.7290
+Ridge Classifier	0.7783	0.5740	0.7298
+Light GBM	0.7311	0.5647	0.7178
+Adaboost	0.6234	0.5140	0.6742
+Random Forest	0.9308	0.4680	0.5829
+XG Boost	0.7466	0.5415	0.6927
+Catboost	0.7645	0.5437	0.7010
+FFNN	0.8851	0.5079	0.6558
+BiLSTM	0.6590	0.5636	0.6935
+TextCNN	0.7687	0.5697	0.7008
+BertGCN 	0.8320	0.6146	0.7624
+EmoBERTGCN	0.7453	0.6787	0.7803
+![image](https://github.com/nlptmu/EmoBERTGCN/assets/95019423/4ee7c1d4-41c6-446b-9b6b-a4262f8fd7bc)
 
