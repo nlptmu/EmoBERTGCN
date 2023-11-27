@@ -13,24 +13,6 @@ In the nascent field of Natural Language Processing (NLP) for the Filipino langu
 
 ## Model Evaluation Results
 
-|Model	| Precision	Recall	F1-score
-Naïve Bayes	0.5866	0.3453	0.4594
-KNN	0.6752	0.5671	0.6747
-Decision Tree	0.5113	0.5018	0.6267
-Logistic Regression	0.8017	0.5555	0.7250
-Support Vector Machine	0.8587	0.5355	0.6986
-Passive Aggressive	0.6519	0.5788	0.7290
-Ridge Classifier	0.7783	0.5740	0.7298
-Light GBM	0.7311	0.5647	0.7178
-Adaboost	0.6234	0.5140	0.6742
-Random Forest	0.9308	0.4680	0.5829
-XG Boost	0.7466	0.5415	0.6927
-Catboost	0.7645	0.5437	0.7010
-FFNN	0.8851	0.5079	0.6558
-BiLSTM	0.6590	0.5636	0.6935
-TextCNN	0.7687	0.5697	0.7008
-BertGCN 	0.8320	0.6146	0.7624
-EmoBERTGCN	0.7453	0.6787	0.7803
 ![image](https://github.com/nlptmu/EmoBERTGCN/assets/95019423/4ee7c1d4-41c6-446b-9b6b-a4262f8fd7bc)
 
 ## Tweet Distribution
@@ -40,7 +22,8 @@ EmoBERTGCN	0.7453	0.6787	0.7803
 
 ## Topic Word Clouds
 
-<img width="335" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/df6fe836-a602-46c9-9ea3-3a09dafc53f2">
+<img width="947" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/12f54c11-f2e6-4b6c-a19d-e25feaa11042">
+
 
 
 
