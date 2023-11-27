@@ -13,7 +13,7 @@ In the nascent field of Natural Language Processing (NLP) for the Filipino langu
 
 ## Model Evaluation Results
 
-Model	Precision	Recall	F1-score
+|Model	| Precision	Recall	F1-score
 Naïve Bayes	0.5866	0.3453	0.4594
 KNN	0.6752	0.5671	0.6747
 Decision Tree	0.5113	0.5018	0.6267
@@ -32,4 +32,15 @@ TextCNN	0.7687	0.5697	0.7008
 BertGCN 	0.8320	0.6146	0.7624
 EmoBERTGCN	0.7453	0.6787	0.7803
 ![image](https://github.com/nlptmu/EmoBERTGCN/assets/95019423/4ee7c1d4-41c6-446b-9b6b-a4262f8fd7bc)
+
+## Tweet Distribution
+
+<img width="318" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/c74e67f7-6fc5-4512-8208-ea8bdb74913e">
+
+
+## Topic Word Clouds
+
+<img width="335" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/df6fe836-a602-46c9-9ea3-3a09dafc53f2">
+
+
 
