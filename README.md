@@ -18,7 +18,8 @@ In the nascent field of Natural Language Processing (NLP) for the Filipino langu
 
 ## Tweet Distribution
 
-<img width="318" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/c74e67f7-6fc5-4512-8208-ea8bdb74913e">
+<img width="907" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/4d2fa510-bee7-4e85-8166-1a6ee65de75b">
+
 
 
 ## Topic Word Clouds
