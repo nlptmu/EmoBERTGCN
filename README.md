@@ -8,7 +8,7 @@ In the nascent field of Natural Language Processing (NLP) for the Filipino langu
 
 ## Model Architecture
 
-<img width="1305" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/78140249-94b4-49fa-9ab1-2de3d1356e13">
+<img width="1244" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/3a547105-93e1-4ff2-8912-07d6d94d8c03">
 
 
 ## Model Evaluation Results
