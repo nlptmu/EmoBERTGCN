@@ -6,7 +6,8 @@ Natural language processing (NLP) research for the Filipino language is relative
 
 ## Model Architecture
 
-![Capture-2023-08-21-120130](https://github.com/nlptmu/EmoBERTGCN-sentiment-analysis/assets/95019423/a97c4d59-1451-4319-b505-ddacbb13f371)
+<img width="1305" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/78140249-94b4-49fa-9ab1-2de3d1356e13">
+
 
 ## Model Evaluation Results
 
@@ -31,8 +32,4 @@ Natural language processing (NLP) research for the Filipino language is relative
 | TextGCN | 0.3333 | 0.4302 | 
 | BERTGCN | 0.6146 | 0.7624 |
 | EmoBertGCN | **0.6787** | **0.7803** |
-
-## Topic Modelling Process
-
-![Capture-2023-08-21-120154](https://github.com/nlptmu/EmoBERTGCN-sentiment-analysis/assets/95019423/0b5c60c2-afcb-4054-b24b-cc524750ef02)
 
