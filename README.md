@@ -13,7 +13,8 @@ In the nascent field of Natural Language Processing (NLP) for the Filipino langu
 
 ## Model Evaluation Results
 
-![image](https://github.com/nlptmu/EmoBERTGCN/assets/95019423/4ee7c1d4-41c6-446b-9b6b-a4262f8fd7bc)
+<img width="1052" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/dad64b6d-fb56-40af-9e6e-5b8c3260f60c">
+
 
 ## Tweet Distribution
 
