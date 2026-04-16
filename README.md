@@ -47,5 +47,43 @@ In the nascent field of Natural Language Processing (NLP) for the Filipino langu
 <img width="947" alt="image" src="https://github.com/nlptmu/EmoBERTGCN/assets/95019423/12f54c11-f2e6-4b6c-a19d-e25feaa11042">
 
 
+## Filipino Election Twitter Dataset
+A labeled sentiment dataset of Filipino-language tweets collected during the 2022 Philippine national election period. This dataset is intended to support research in political sentiment analysis, natural language processing (NLP), and computational social science — particularly for low-resource and code-mixed languages such as Filipino/Tagalog.
+
+## 📊 Dataset Overview
+PropertyDetailsTotal Samples8,035 tweetsLanguageFilipino / Tagalog (code-mixed with English)DomainPolitical — 2022 Philippine ElectionsTaskSentiment ClassificationFormatCSV
+
+## 📁 File Structure
+Filipino_Election_Twitter_Dataset.csv
+ColumnTypeDescriptiontextstringRaw tweet contenttweet_idsstringOriginal Twitter/X tweet ID(s)sentiment1integerSentiment label (see below)
+
+## 🏷️ Sentiment Label Definitions
+Sentiment Label Definitions: 
+0: Negative
+1: Positive
+2: Neutral
+
+Label distribution:
+LabelCountPositive (1)6,067Negative (0)1,385Neutral (2)583
+
+
+## 📜 Citation
+If you use this dataset in your research, please cite the following paper. Proper citation is essential for attributing the work and supporting the continued development of Filipino NLP resources.
+```bibtex
+@article{aquino2025graph,
+title     = {Graph-Aware Pre-trained Language Model for Political Sentiment Analysis in Filipino Social Media},
+author    = {Jean Aristide Aquino and Di Jie Liew and Yung-Chun Chang},
+journal   = {Engineering Applications of Artificial Intelligence},
+year      = {2025}
+}
+```
+> Full citation:
+
+Jean Aristide Aquino, Di Jie Liew, and Yung-Chun Chang*, "Graph-Aware Pre-trained Language Model for Political Sentiment Analysis in Filipino Social Media", Engineering Applications of Artificial Intelligence, 2025.
+
+
+## ⚖️ License
+Please ensure your use of this dataset complies with Twitter/X's Terms of Service regarding the redistribution of tweet content. This dataset is released strictly for non-commercial academic research purposes.
+
 
 
